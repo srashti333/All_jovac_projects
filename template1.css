@@ -1,0 +1,193 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#sec-0
+{
+    display: flex;
+}
+#sec-0 #header
+{
+    background-color:black;
+    height: 150px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 10px;
+    background: #0F2027;  /* fallback for old browsers */
+    background: linear-gradient(to right, #162b34, #122328, #010709); 
+}
+#sec-0 aside
+{
+    width: 25%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content :space-between;
+    flex-direction: column;
+    
+}
+aside .articles0
+{
+    width: 100%;
+    height: 40px;
+
+    
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1
+{
+    
+    font-size: 30px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: ; */
+    padding: 0 25%;
+    /* width: 75%; */
+    margin-bottom: 60px;
+
+}
+
+#banner
+{
+    width: 100%;
+    height: 100vh;
+    margin-top: 10px;
+    /* background-color: rgb(2, 2, 74); */
+    line-height: 100vh;
+    color: white;
+    text-align: center;
+    background-image: url("https://th.bing.com/th/id/R.3588b7196cbc9ac543d39a7a72ae80cb?rik=kX7bwGTMRGknUg&riu=http%3a%2f%2fallhdwallpapers.com%2fwp-content%2fuploads%2f2015%2f05%2fLamborghini-Aventador-2.jpg&ehk=ALr8dfx9ygIp0JQvt%2f%2fb%2bdc5KNhppW3xFt3rLkXnUbM%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    
+}
+#about
+{
+    font-size:80px;
+    padding-bottom: 4% ;
+}
+hr
+{
+    align-items: center;
+    margin: 0 12.5% ;
+    width: 75%;
+    border: 3px solid rgb(18, 17, 17);
+    opacity: .5;
+    margin-bottom: 90px;
+}
+#sec-1
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+#sec-1 .circles
+{
+    width:450px;
+    height:450px;
+    border-radius: 50%;
+    background-color:goldenrod ;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+
+    display :flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1
+{
+    text-shadow: 3px 3px 3px rgb(174, 174, 119);
+    text-align: center;
+    margin-top: 20px 0px;
+    padding: 20px;
+}
+#sec-2
+{
+    display: flex;
+}
+#sec-2 main
+{
+    background-color: rgb(120, 115, 115);
+    height: 600px;
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside
+{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content :space-between;
+    flex-direction: column;
+    
+}
+aside .articles
+{
+    width: 100%;
+    height: 180px;
+    margin-left: 20px;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec-3
+{
+    display: flex;
+    justify-content: space-evenly;
+} 
+#sec-3 .Boxes
+{
+    /* background-color: #353433;; */
+    background: #0F2027;  /* fallback for old browsers */
+    background: linear-gradient(to right, #162b34, #122328, #010709); 
+    width: 400px;
+    height: 500px;
+    margin: 30px ;
+    border-radius: 40px;
+    transition: 1s;
+    /* padding: 0 20%; */
+
+}
+.Boxes
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 4%; */
+}
+.Boxes:hover
+{
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    box-shadow: 2px;
+    transform: scale(1.1);
+}
+#footer
+{
+    margin-top: 80px;
+    width: 100%;
+    height: 550px;
+    background-color: rgb(58, 58, 64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+/* ================================== */
