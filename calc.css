@@ -1,0 +1,22 @@
+.calc
+{
+    display: flex;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 2em;
+    /* justify-content: center; */
+    padding-left: 20px;
+    background-color:grey;
+}
+#calc
+{
+    padding: 20px 20px;
+    font-size: 20px;
+    background-color: beige;
+    height: 100vh;
+}
+#result
+{
+    font-style: italic;
+    font-size: 24px;
+}
