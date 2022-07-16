@@ -1,0 +1,36 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:rgb(113, 188, 218);
+}
+header{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px 5px;
+}
+.box{
+    width: 60%;
+    height: 60vh;
+    margin: auto;
+    background-color:rgb(226, 116, 52);
+    border-radius: 10px;
+}
+.box h1{
+    color: purple;
+    text-align: center;
+    padding: 20px 10px;
+    font-weight: 400;
+}
+.box h2,label{
+    padding: 0px 30px;
+    color: white;
+    font-size: large;
+    font-weight: 800;
+}
+.box h2 span{
+    padding-left: 20px;
+    color: black;
+}

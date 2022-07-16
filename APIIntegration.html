@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./API.css">
+</head>
+<body>
+    <header>
+        <h1>Fetching data using Covid API</h1>
+    </header>
+    <div class="box">
+        <h1>Today 's Covid Cases</h1>
+        <label for="country">Select Country: </label>
+        <select onchange=getData() name="country" id="country">
+        </select>
+        <h2>Country Name: <span id="name"></span></h2>
+        <h2>Date: <span id="date"></span></h2>
+        <h2>Total Cases: <span id="totalcases"></span></h2>
+        <h2>Total Deaths: <span id="totaldeaths"></span></h2>
+        <h2>New Cases: <span id="ncases"></span></h2>
+        <h2>New Deaths: <span id="ndeaths"></span></h2>
+    </div>
+    <script src="./API.js"></script>
+</body>
+</html>
